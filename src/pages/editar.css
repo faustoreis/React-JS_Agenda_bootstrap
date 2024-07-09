@@ -1,0 +1,39 @@
+.container {
+  width: 90%;
+  background-color: #fff;
+  margin: 50px 50px 50px 50px;
+  padding: 25px 25px 25px 25px;
+}
+
+.container-voltar {
+  height: 50px;
+}
+
+.btn-voltar {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  margin: 15px 15px 15px 15px;
+  padding: 10px 10px 10px 10px;
+  border: solid 1px #000;
+  border-radius: 5px;
+}
+
+.btn-voltar:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 35px;
+  }
+  .container {
+    width: 90%;
+    background-color: #fff;
+    margin: 20px 20px 25px 15px;
+    padding: 5px 5px 5px 5px;
+  }
+}
